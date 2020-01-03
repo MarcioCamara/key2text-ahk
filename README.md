@@ -13,15 +13,19 @@
 ## Screenshots
 
 - Tela inicial para configuração dos atalhos
+
 ![Iniciar](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/initial_screen.png?raw=true)
 
 - Minimizado na Tray
+
 ![Minimizado na Tray](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/minimized.png?raw=true)
 
 - Restaurar da Tray
+
 ![Restaurar da Tray](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/restore.png?raw=true)
 
 - Arquivos de dependência (NÃO APAGAR)
+
 ![Arquivos de dependência (NÃO APAGAR)](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/dependencies.png?raw=true)
 
 ## Desenvolvido utilizando
