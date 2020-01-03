@@ -13,16 +13,16 @@
 ## Screenshots
 
 - Tela inicial para configuração dos atalhos
-![Iniciar](https://github.com/MarcioCamara/key2text/blob/master/___screenshots/initial_screen.png?raw=true)
+![Iniciar](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/initial_screen.png?raw=true)
 
 - Minimizado na Tray
-![Minimizado na Tray](https://github.com/MarcioCamara/key2text/blob/master/___screenshots/minimized.png?raw=true)
+![Minimizado na Tray](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/minimized.png?raw=true)
 
 - Restaurar da Tray
-![Restaurar da Tray](https://github.com/MarcioCamara/key2text/blob/master/___screenshots/restore.png?raw=true)
+![Restaurar da Tray](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/restore.png?raw=true)
 
 - Arquivos de dependência (NÃO APAGAR)
-![Arquivos de dependência (NÃO APAGAR)](https://github.com/MarcioCamara/key2text/blob/master/___screenshots/dependencies.png?raw=true)
+![Arquivos de dependência (NÃO APAGAR)](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/dependencies.png?raw=true)
 
 ## Desenvolvido utilizando
 
@@ -33,8 +33,8 @@
 
 - [Marcio Câmara](https://marciocamara.github.io) - Desenvolvimento
 
-Veja também a lista de [contribuidores](https://github.com/MarcioCamara/key2text/graphs/contributors) que participaram desse projeto.
+Veja também a lista de [contribuidores](https://github.com/MarcioCamara/key2text-ahk/graphs/contributors) que participaram desse projeto.
 
 ## Licença
 
-Esse projeto está licenciado sob a Licença [MIT](https://github.com/MarcioCamara/infinite-runner/blob/master/LICENSE).
+Esse projeto está licenciado sob a Licença [MIT](https://github.com/MarcioCamara/key2text-ahk/blob/master/LICENSE).
