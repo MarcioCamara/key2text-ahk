@@ -3,7 +3,8 @@
 ## Instruções
 
 - Execute o script (seja o .exe ou o .ahk [via [AutoHotkey.exe](https://www.autohotkey.com/download/ahk-install.exe)]);
-- Na tela que abrirá, preencha os campos desejados com o(s) texto(s) desejado(s);
+- Na tela que abrirá, preencha os campos desejados com o(s) texto(s) desejado(s) bem como o campo "Delay", o qual controla o espaço de tempo em que as teclas serão pressionadas (em milissegundos);
+- Caso queira adicionar teclas especiais do teclado, como ctrl, shift, etc, basta colocá-las de acordo com a codificação disponível [aqui](https://www.autohotkey.com/docs/Hotkeys.htm) (ver item "Tela inicial para configuração dos atalhos" na sessão de screenshots);
 - Clique em "Confirmar" e minimize o programa se desejar;
 - Ao minimizá-lo, o mesmo irá para tray (ver item "Minimizado na Tray" na sessão de screenshots);
 - Caso queira abrí-lo novamente, basta clicar com o direito no ícone na tray e clicar em "Restore" (ver item "Restaurar da Tray" na sessão de screenshots);
