@@ -29,7 +29,7 @@
 
 ![Arquivos de dependência (NÃO APAGAR)](https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/dependencies.png?raw=true)
 
-## Desenvolvido utilizando
+## Ferramentas
 
 - [AutoHotkey](https://www.autohotkey.com/)
 - [TrayMinimizer.ahk](https://www.autohotkey.com/boards/viewtopic.php?t=44989) by [evilC](https://github.com/evilC)
