@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="https://github.com/MarcioCamara/">Key2Text @ Marcio Câmara</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#instructions">Instruções</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#screenshots">Screenshots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tools">Ferramentas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 id="instructions" class="mt-5">Instruções</h2>
+
+        <ul>
+            <li class="mt-2">Execute o script (seja o .exe ou o .ahk [via
+                <a href="https://www.autohotkey.com/download/ahk-install.exe">
+                    AutoHotkey.exe
+                </a>
+                ]);
+            </li>
+
+            <li class="mt-2">
+                Na tela que abrirá, preencha os campos desejados com o(s) texto(s) desejado(s) bem como o campo
+                &quot;Delay&quot;, o qual controla o espaço de tempo em que as teclas serão pressionadas (em
+                milissegundos);
+            </li>
+
+            <li class="mt-2">Caso queira adicionar teclas especiais do teclado, como ctrl, shift, etc, basta colocá-las de acordo com
+                a
+                codificação disponível <a href="https://www.autohotkey.com/docs/Hotkeys.htm">aqui</a> (ver item
+                &quot;Tela
+                inicial para configuração dos atalhos&quot; na sessão de screenshots);
+            </li>
+
+            <li class="mt-2">
+                Clique em &quot;Confirmar&quot; e minimize o programa se desejar;
+            </li>
+
+            <li class="mt-2">
+                Ao minimizá-lo, o mesmo irá para tray (ver item &quot;Minimizado na Tray&quot; na sessão de
+                screenshots);
+            </li>
+
+            <li class="mt-2">
+                Caso queira abrí-lo novamente, basta clicar com o direito no ícone na tray e clicar em
+                &quot;Restore&quot;
+                (ver
+                item &quot;Restaurar da Tray&quot; na sessão de screenshots);
+            </li>
+
+            <li class="mt-2">
+                Para escrever os textos preenchidos com um atalho, basta pressionar o atalho escolhido;
+            </li>
+
+            <li class="mt-2">
+                IMPORTANTE! O programa criará 2 arquivos (sendo eles TrayMinimizer.ahk e config.ini) aos quais ele
+                depende
+                para
+                seu bom funcionamento. Favor não excluí-los. O arquivo TrayMinimizer.ahk é responsável pela
+                funcionalidade
+                de
+                minimizar para a tray e o config.ini é responsável por armazenar os textos e configurações de teclas de
+                atalho
+                salvas.
+            </li>
+        </ul>
+
+        <h2 id="screenshots" class="mt-5">Screenshots</h2>
+
+        <ul>
+            <li class="mt-4">Tela inicial para configuração dos atalhos</li>
+        </ul>
+
+        <div class="figure">
+            <img class="img-fluid"
+                src="https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/initial_screen.png?raw=true" />
+        </div>
+
+        <ul>
+            <li class="mt-4">Minimizado na Tray</li>
+        </ul>
+
+        <div class="figure">
+            <img class="img-fluid"
+                src="https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/minimized.png?raw=true" />
+        </div>
+
+        <ul>
+            <li class="mt-4">Restaurar da Tray</li>
+        </ul>
+
+        <div class="figure">
+            <img class="img-fluid"
+                src="https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/restore.png?raw=true" />
+        </div>
+
+        <ul>
+            <li class="mt-4">Arquivos de dependência (NÃO APAGAR)</li>
+        </ul>
+
+        <div class="figure">
+            <img class="img-fluid"
+                src="https://github.com/MarcioCamara/key2text-ahk/blob/master/___screenshots/dependencies.png?raw=true" />
+        </div>
+
+        <h2 id="tools" class="mt-5">Ferramentas</h2>
+
+        <ul>
+            <li class="mt-2">
+                <a href="https://www.autohotkey.com/">
+                    AutoHotkey
+                </a>
+            </li>
+
+            <li class="mt-2">
+                <a href="https://www.autohotkey.com/boards/viewtopic.php?t=44989">
+                    TrayMinimizer.ahk
+                </a>
+                by
+                <a href="https://github.com/evilC">
+                    evilC
+                </a>
+            </li>
+        </ul>
+
+        <h2 id="autores" class="mt-5">Autores</h2>
+
+        <ul>
+            <li class="mt-2">
+                <a href="https://marciocamara.github.io">
+                    Marcio Câmara
+                </a> - Desenvolvimento
+            </li>
+        </ul>
+
+        <p>Veja também a lista de
+            <a href="https://github.com/MarcioCamara/key2text-ahk/graphs/contributors">
+                contribuidores
+            </a>
+            que participaram desse projeto.
+        </p>
+
+        <h2 id="licença" class="mt-5">
+            Licença
+        </h2>
+
+        <p class="mb-5">
+            Esse projeto está licenciado sob a Licença
+            <a href="https://github.com/MarcioCamara/key2text-ahk/blob/master/LICENSE">
+                MIT
+            </a>
+            .
+        </p>
+    </div>
+</body>
+
+</html>
